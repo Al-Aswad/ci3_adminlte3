@@ -75,14 +75,23 @@ defined('BASEPATH') or exit('No direct script access allowed');
 			} */
                .sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active,
                .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
-                    background-color: #2f7ccf;
+                    background-color: #2f7ccf96;
                }
+
+               /* .sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active,
+               .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
+
+               } */
 
                [class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active,
                [class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active:focus,
                [class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active:hover {
                     background-color: rgb(56 61 69);
                     color: #eee;
+               }
+
+               [class*=sidebar-dark-] .sidebar a {
+                    color: #8fa0bf;
                }
           </style>
           <!-- Main Sidebar Container -->

@@ -1,13 +1,22 @@
 <div class="sidebar">
      <!-- Sidebar Menu -->
-     <nav class="mt-2">
+     <nav class="mt-4">
           <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
 
-               <li class="nav-item menu-open">
-                    <a href="#" class="nav-link active px-1">
+               <li class="nav-item">
+                    <a href="#" class="nav-link px-1 active">
                          <i class="nav-icon fas fa-tachometer-alt"></i>
                          <p>
                               Dashboard
+                         </p>
+                    </a>
+               </li>
+
+               <li class="nav-item">
+                    <a href="#" class="nav-link px-1">
+                         <i class="nav-icon fas fa-tachometer-alt"></i>
+                         <p>
+                              Karyawan
                               <i class="right fas fa-angle-left"></i>
                          </p>
                     </a>
@@ -32,7 +41,7 @@
                          </li>
                     </ul>
                </li>
-               <li class="nav-header">Manajemen Users</li>
+
                <li class="nav-item">
                     <a href="#" class="nav-link px-1">
                          <i class="nav-icon far fa-envelope"></i>
