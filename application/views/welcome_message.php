@@ -229,7 +229,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 								</li>
 							</ul>
 						</li>
-						<li class="nav-header">EXAMPLES</li>
+						<li class="nav-header">Manajemen Users</li>
 						<li class="nav-item">
 							<a href="#" class="nav-link px-1">
 								<i class="nav-icon far fa-envelope"></i>
